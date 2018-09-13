@@ -1,0 +1,73 @@
+:root {
+  --black: #252525;
+  --grey: #f2f2f2;
+  --white: #fff;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+}
+
+.products,
+.cart {
+  width: 50%;
+  padding: 16px 24px;
+  display: inline-block;
+  flex: 1;
+}
+
+.products {
+  background-color: var(--grey);
+  color: var(--black);
+}
+
+.products h1,
+.products h2 {
+  border-left: 10px solid var(--black);
+  padding-left: 10px;
+}
+
+.product p {
+  margin-top: 0px;
+}
+
+.product h4 {
+  margin-top: 10px;
+}
+
+.product {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.cart {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.cart button {
+  margin: 8px 0px;
+}
+
+.product:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.inputs input:not(:last-child) {
+  margin-right: 10px;
+}
+
+.product-list {
+  margin-bottom: 24px;
+}
