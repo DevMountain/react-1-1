@@ -18,7 +18,7 @@ On this day, we will start building our React app. We will create a `class compo
 
 <a href="https://DevMountain.github.io/react-1">Click Me! (still needs a link)</a>
 
-<img src="./src/img/screenshot.png" />
+<img src="readme-assets/live-example.png" />
 
 ## Part 1
 
