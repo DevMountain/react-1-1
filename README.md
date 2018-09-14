@@ -1610,6 +1610,13 @@ _You're going to need to rely heavily on `Object.assign` here to avoid mutating 
 
 ## Step 2
 
+
+- Open `src/App.js`.
+- Fix the `total h2 element` to account for multiple `quantites` of an item.
+- Update the `cart map` to display the `quantity` of the `product`.
+
+## Step 3
+
 - Open `src/App.js`.
 - Create a new `deleteFromCart method`:
   - This `method` should use an `id parameter` to figure out what element to remove.
@@ -1620,7 +1627,7 @@ _You're going to need to rely heavily on `Object.assign` here to avoid mutating 
 
 _Remember to use `Object.assign` similarily to the `addToCart` method to avoid mutating `state` directly._
 
-## Step 3
+## Step 4
 
 - Open `src/App.js`.
 - Create a new property on `state` called `cardView` and initialize it to `true`.
@@ -1630,16 +1637,10 @@ _Remember to use `Object.assign` similarily to the `addToCart` method to avoid m
 - Create a new `handleToggleView` method that sets `cardView` to its opposite value:
   - If it is `true set it to`false` and vice versa.
 
-## Step 4
-
-- Open `src/App.js`.
-- Use conditional rendering to change the style of the `products` when `cardView` is either true or false.
-
 ## Step 5
 
 - Open `src/App.js`.
-- Fix the `total h2 element` to account for multiple `quantites` of an item.
-- Update the `cart map` to display the `quantity` of the `product`.
+- Use conditional rendering to change the style of the `products` when `cardView` is either true or false.
 
 ## Contributions
 
