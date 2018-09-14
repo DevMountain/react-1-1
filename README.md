@@ -2,7 +2,7 @@
 
 # Project Summary
 
-In this project, we will create an e-commerce React application from start to finish. We will start with the basic file structure from `create-react-app`, with the only difference being that `src/App.js` is empty. We will be working on this app over the course of three days. Each day's project is divided into four parts, with the first step being comparable to that day's mini-project and the following steps adding more features or implementing new patterns. You should expect to be able to complete the first two steps on each day, while steps three and four will offer a challenge.
+In this project, we will create an e-commerce React application from start to finish. We will start by forking and cloning this repo, which will provide the basic file structure from `create-react-app` (the only difference being that `src/App.js` is empty). We will be working on this app over the course of three days. Each day's project is divided into four parts, with the first step being comparable to that day's mini-project and the following steps adding more features or implementing new patterns. You should expect to be able to complete the first two steps on each day, while steps three and four will offer a challenge.
 
 # Day 1
 
