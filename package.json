@@ -16,5 +16,5 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://DevMountain.github.io/react-1"
+  "homepage": "https://DevMountain.github.io/react-1-1"
 }
