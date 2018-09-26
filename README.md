@@ -960,8 +960,8 @@ export default class App extends Component {
 
 - Open `src/App.js`.
 - Scroll down to the `cart section`:
-  - Create an`h2` element to display "Total $" and then the actual total after the dollar sign.
-  - Place this `h2` under the `h1` for that says "Cart".
+  - Create an `h2` element to display "Total $" and then the actual total after the dollar sign.
+  - Place this `h2` under the `h1` that says "Cart".
 
 <details>
 <summary>Detailed Instructions</summary>
