@@ -1577,7 +1577,11 @@ export default class App extends Component {
 ```js
 checkout = () => {
   if (this.state.address.length > 0 && this.state.creditCard.length > 0) {
-    this.setState({ cart: [] });
+    this.setState({
+      cart: [],
+      address: '',
+      creditCart: '',
+    });
     alert("Purchase is complete!");
   } else {
     alert("Please fill out the required fields.");
